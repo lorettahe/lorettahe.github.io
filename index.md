@@ -1,46 +1,21 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Loretta He
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## Who am I?  Loretta是谁？
+Chinese Girl, likes the idea of functional programming, has been professionally developing in Clojure for ~4 years.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+中国妹子，爱好函数语言，专业Clojure开发约四年。
 
-## Update Author Attributes
+## Why blog? 为何开坑？
+I don't normally have the stamina to keep a blog going, hence when I wanted to write a new blog article to sort through Clojure and OO (different use-cases for deftype, reify, proxy, defrecord etc.) in the spur of the moment, I couldn't find anywhere to put it or share it, hence this new blog.
 
-In `_config.yml` remember to specify your own data:
+本人基本无耐性将博客坚持到底，因此突发奇想要写篇关于Clojure及OO的科普文时（与deftype, reify, proxy, defrecord等不同使用场景相关），无处将此文寄放，因而在此开坑。
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+## Contact Me 联系我
+Sina Weibo 新浪微博：[@红烧Lo](http://www.weibo.com/1899123755/profile)
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+LinkedIn 领英：[Loretta He](https://uk.linkedin.com/pub/loretta-he/1a/910/abb)
 
 
