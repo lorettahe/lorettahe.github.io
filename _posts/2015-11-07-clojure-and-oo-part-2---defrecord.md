@@ -29,7 +29,7 @@ Let's make a new instance of our shiny new Cat class:
 
 {% highlight clojure %}
 (def sherlock (->Cat "Sherlock" 3 "Russian Blue"))
-{% endhightlight %}"Wait wait wait, what is **->Cat**?? I never defined such a thing!" I can already hear our keen readers interrupting me here. Well, you did, and you just didn't know you did. You did back when you called that defrecord in our first code excerpt. Clojure will automatically define this handy function for you to use to create new instances of your record types. (And yes, before you ask, Sherlock is one of my endearing cats at home.)
+{% endhighlight %}"Wait wait wait, what is **->Cat**?? I never defined such a thing!" I can already hear our keen readers interrupting me here. Well, you did, and you just didn't know you did. You did back when you called that defrecord in our first code excerpt. Clojure will automatically define this handy function for you to use to create new instances of your record types. (And yes, before you ask, Sherlock is one of my endearing cats at home.)
 	
 And Clojure has another trick up its sleeve - there is also another defined function named **map->Cat**. The name should already tell you what it does - it turns a map into an instance of our new Cat type.
 
