@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Clojure and OO part 2   defrecord"
+description: "defrecord"
 category: Clojure
-title: "Clojure and OO [part 2] - defrecord"
-tagline: "Why and How"
 tags: [Clojure, OO, defrecord]
 ---
 {% include JB/setup %}
@@ -82,4 +82,4 @@ Now remember, you can get record types to implement any interfaces, not just Clo
 
 And I think that's about it for **defrecord**. Oh, and one last thing, you **cannot use defrecord to extend solid classes**. We will eventually get around to that, probably towards the end of this series. For now, it's wrap-up time! Go watch TV or something, or hopefully you may have been excited about this enough to go write some Clojure!
 
-P.S. [defrecord @ ClojureDocs](https://clojuredocs.org/clojure.core/defrecord) 
+P.S. [defrecord @ ClojureDocs](https://clojuredocs.org/clojure.core/defrecord)
